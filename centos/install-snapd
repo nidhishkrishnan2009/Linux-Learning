@@ -1,0 +1,6 @@
+Steps:
+1. sudo dnf install epel-release
+2. sudo dnf upgrade
+3. sudo yum install snapd
+4. sudo systemctl enable --now snapd.socket
+5. sudo ln -s /var/lib/snapd/snap /snap

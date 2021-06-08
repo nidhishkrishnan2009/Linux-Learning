@@ -1,0 +1,9 @@
+android-studio
+sudo alternatives --config java
+sudo update-alternatives --config java
+rpm -qa | grep jdk
+sudo yum remove java-1.8.0
+sudo snap install flutter --classic
+sudo yum install snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
