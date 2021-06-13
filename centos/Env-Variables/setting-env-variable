@@ -1,0 +1,9 @@
+Steps:
+1. vim ~/.bash_profile
+2. export variables for e.g export ntest='hellotesting'
+3. source ~/.bash_profile => This will apply the changes
+
+Note: Always use single quotes for values.
+
+# To print all environment variables:
+printenv

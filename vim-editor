@@ -1,0 +1,5 @@
+# To quit without saving
+:qa!
+
+# To quit saving the changes
+:wq

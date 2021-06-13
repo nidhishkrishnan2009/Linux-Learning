@@ -1,0 +1,15 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk"
+export ntest='hellotesting'
+export TEST_PATH='testing2'
+export MAVEN_PATH='maventest'
+export FINAL_TEST='final testing'
+export PATH=$JAVA_HOME/bin:$PATH
+#export PATH=$PATH:/usr/lib/jvm/java-1.8.0-openjdk/bin:$PATH
