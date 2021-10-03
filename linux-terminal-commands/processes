@@ -1,0 +1,2 @@
+# Get Top CPU and memory usage processes
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
